@@ -1,1 +1,4 @@
-print("Hello world");
+import cv2
+
+print("Program started")
+print("clozing")
