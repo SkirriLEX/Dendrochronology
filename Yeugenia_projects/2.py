@@ -1,13 +1,22 @@
 import cv2
 import numpy as np
 
-im = cv2.imread('1.jpg')
-imgray = cv2.cvtColor(im,cv2.COLOR_BGR2GRAY)
-ret, thresh = cv2.threshold(imgray,127,255,0)
-im2, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+webcam = cv2.VideoCapture(0)
 
-cnt = contours[4]
-cv2.drawContours(im,[cnt],0,(0,255,0),3)
+while (webcam.isOpened()):
+    _, frame = webcam.read()
 
-cv2.waitKey(0)
+    laplacian = cv2.Laplacian(frame, cv2.CV_64F)
+    #    sobelx=cv2.Sobel(frame,cv2.CV_64F,1,0,ksize=5)
+    #    sobely=cv2.Sobel(frame,cv2.CV_64F,0,1,ksize=5)
+    edges = cv2.Canny(frame, 100, 90)
+
+    cv2.imshow("laplacian", laplacian)
+    cv2.imshow("color img", frame)
+    #    cv2.imshow("sobelx",sobelx)
+    #    cv2.imshow("sobely",sobely)
+    cv2.imshow("edges", edges)
+    if (cv2.waitKey(1) & 0xff == ord("c")):
+        break
+webcam.release()
 cv2.destroyAllWindows()
