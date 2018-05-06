@@ -1,0 +1,6 @@
+C:\Users\Den\Desktop\nauk\Detection of the contours of objects in the picture\bin\Debug\Detection of the contours of objects in the picture.exe.config
+C:\Users\Den\Desktop\nauk\Detection of the contours of objects in the picture\bin\Debug\Detection of the contours of objects in the picture.exe
+C:\Users\Den\Desktop\nauk\Detection of the contours of objects in the picture\bin\Debug\Detection of the contours of objects in the picture.pdb
+C:\Users\Den\Desktop\nauk\Detection of the contours of objects in the picture\obj\Debug\Detection of the contours of objects in the picture.csprojResolveAssemblyReference.cache
+C:\Users\Den\Desktop\nauk\Detection of the contours of objects in the picture\obj\Debug\Detection of the contours of objects in the picture.exe
+C:\Users\Den\Desktop\nauk\Detection of the contours of objects in the picture\obj\Debug\Detection of the contours of objects in the picture.pdb

@@ -1,0 +1,4 @@
+D:\PROJEKTI\Detection of the contours of objects in the picture\Detection of the contours of objects in the picture\bin\Release\Detection of the contours of objects in the picture.exe.config
+D:\PROJEKTI\Detection of the contours of objects in the picture\Detection of the contours of objects in the picture\bin\Release\Detection of the contours of objects in the picture.exe
+D:\PROJEKTI\Detection of the contours of objects in the picture\Detection of the contours of objects in the picture\obj\Release\ResolveAssemblyReference.cache
+D:\PROJEKTI\Detection of the contours of objects in the picture\Detection of the contours of objects in the picture\obj\Release\Detection of the contours of objects in the picture.exe
